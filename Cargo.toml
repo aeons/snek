@@ -10,6 +10,7 @@ opt-level = 1
 opt-level = 3
 
 [dependencies]
+turborand = { version = "0.8.0", features = ["atomic"] }
 
 [dependencies.bevy]
 git = "http://github.com/bevyengine/bevy"
